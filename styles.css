@@ -384,6 +384,14 @@ footer{
 	background: #111; 
 }
 
+footer{
+					text-align: center; 
+			}
+
+			footer h5{
+					padding-bottom: 2rem;
+			}
+
 .footer-wrapper{
 	display: flex; 
 	padding: 2rem;
@@ -415,12 +423,12 @@ footer h5{
 		justify-content: space-between;
 }
 
-@media screen and (max-width: 932px){
+ @media screen and (max-width: 932px) {
 			footer{
 					text-align: center; 
 			}
 
-			footer h5{
+			footer h5{ 
 					padding-bottom: 2rem;
-			}
-}
+			}  
+} 

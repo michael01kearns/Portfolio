@@ -107,7 +107,7 @@
                         <div class="card-info">
                            <p class="title">Form Validation</p>
                            <p>
-                           Form registration made with HTML5, CCS3, and JavaScript for clinet side validation. 
+                           Form registration made with JavaScript for clinet side validation. 
                            </p>
                         </div>
                         <div class="card-github-link">
@@ -149,12 +149,12 @@
          <section id="Contact" class="contact-section">
             <h1>Contact Me</h1>
             <div class="border"></div>
-            <form class="contact-form" action="index.html" method="post">
-               <input type="text" class="contact-form-text" placeholder="Your name">
-               <input type="email" class="contact-form-text" placeholder="Your email">
-               <input type="text" class="contact-form-text" placeholder="Your phone">
-               <textarea class="contact-form-text" placeholder="Your message"></textarea>
-               <input type="submit" class="contact-form-btn" value="Send">
+            <form  name="contact" method="POST" data-netlify="true" class="contact-form">
+               <input name="name" type="text" class="contact-form-text" placeholder="Your name">
+               <input name="email" type="email" class="contact-form-text" placeholder="Your email">
+               <input name="message" type="text" class="contact-form-text" placeholder="Your phone">
+               <textarea name="message" class="contact-form-text" placeholder="Your message"></textarea>
+               <input name="submit" type="submit" class="contact-form-btn" value="Send">
             </form>
          </section>
       <!-- end of Contact Section -->
@@ -162,13 +162,15 @@
          <!-- Footer -->
             <footer>
                <div class="footer-wrapper">
-                  <h5>Michael Kearns Portfolio &copy;</h5>
+                  <h5>Phone: 1(508)-315-7432</h5>
+                  <h5>Email: michael01kearns@gmail.com</h5>
                   <div class="sm-footer">
                      <a href="#" class="fab fa-whatsapp-square"></a>
                      <a href="#" class="fas fa-envelope"></a>
                      <a href="#" class="fab fa-linkedin-in"></a>
                   </div>
                </div>
+               <h5>Michael Kearns Portfolio &copy;</h5>
             </footer>
          <!-- end of Footer -->
    <!-- javaScript files -->
